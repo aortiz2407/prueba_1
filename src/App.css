@@ -1,0 +1,57 @@
+.chat{
+  width: 30%;
+  min-height: 50vh;
+  max-height: 50vh;
+  overflow: scroll;
+  border: 2px solid black;
+}
+.vuelos{
+  width: 30%;
+  min-height: 20vh;
+  max-height: 40vh;
+  min-width: 50vh;
+  max-width: 100vh;
+  overflow: scroll;
+  border: 1px solid black;
+}
+
+ /* Tomado de : https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */ 
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ /* Tomado de : https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_fade */
+ .button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+.body { 
+  margin: 0; 
+  padding: 0; 
+}
+
+.map { 
+  position: absolute; 
+  top: 50; 
+  bottom: 50; 
+  width: 100%;
+}
